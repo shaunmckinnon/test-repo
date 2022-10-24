@@ -1,0 +1,42 @@
+@import url(./defaults.css);
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+header {
+  background: url(../images/gwyn-vandergaast-DAqt_MtGvDM-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: #fff;
+  text-shadow: 2px 2px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+  justify-content: center;
+}
+
+section {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.price {
+  background: #333;
+  padding: 1em;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,64 @@
+@import url(./defaults.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-image: url(./gwyn-vandergaast-DAqt_MtGvDM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+article {
+    width: 69%;
+}
+
+article img {
+    float: left;
+    margin-right: 1em;
+}
+
+aside {
+    width: 30%;
+}
+
+aside h2 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+aside ul li {
+    padding: 1em;
+}
+
+aside ul li:nth-of-type(odd) {
+    background-color: #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+}

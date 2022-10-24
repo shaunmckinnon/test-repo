@@ -1,0 +1,39 @@
+@import url(./reset.css);
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.4em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-bottom: 2em;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0262c9;
+}
+
+header, main, section, footer, article, aside, nav {
+    outline: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1em;
+}
